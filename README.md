@@ -24,6 +24,8 @@ The bot speaks in first person as me. It does not pitch. It qualifies.
 
 ## Architecture
 
+![Workflow diagram](Webhook-Chat-Trigger.png)
+
 ```mermaid
 graph LR
     A[Webhook / Chat Trigger] --> B[Normalize Incoming Message]
